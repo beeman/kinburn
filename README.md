@@ -7,17 +7,15 @@
 - 
 ```
 
-### Key Variables: 
-- Cluster: `devnet`
-- ProgramId: `FiRESpaNzgYUiba5vkb44CZJLZjrux1AUECdfwPRsNkg`
-- BonkMint: `DezXAZ8z7PnrnRJjz3wXBoRgixCa6xjnB7YaB1pPB263` 
-
-
 ### Running Front-end
 
-Rename `.env.example` to `.env`.
-Update `REACT_APP_SOLANA_RPC_HOST` with your devnet RPC or the public: `https://api.devnet.solana.com`
-From Terminal enter
-```sh
-yarn dev
-````
+- Clone repo, run `yarn install`
+- Rename `.env.example` to `.env` and add your environment variables.
+- Start the app with `yarn dev`
+
+### Environment Variables: 
+
+- REACT_APP_PROGRAM_ID: `FiRESpaNzgYUiba5vkb44CZJLZjrux1AUECdfwPRsNkg`
+- REACT_APP_MINT: `DezXAZ8z7PnrnRJjz3wXBoRgixCa6xjnB7YaB1pPB263` 
+- REACT_APP_SOLANA_RPC_HOST: `https://api.devnet.solana.com`
+

@@ -2,22 +2,15 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-```bash
-npm install
-#or
-yarn
-```
+- Clone repo, run `yarn install`
+- Rename `.env.example` to `.env` and add your environment variables.
+- Start the app with `yarn dev`
 
-Rename `.env.example` to `.env`.
-Update `REACT_APP_SOLANA_RPC_HOST` with your devnet RPC or the public: `https://api.devnet.solana.com`
+### Environment Variables:
 
-Run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-```
+- REACT_APP_PROGRAM_ID: `FiRESpaNzgYUiba5vkb44CZJLZjrux1AUECdfwPRsNkg`
+- REACT_APP_MINT: `DezXAZ8z7PnrnRJjz3wXBoRgixCa6xjnB7YaB1pPB263`
+- REACT_APP_SOLANA_RPC_HOST: `https://api.devnet.solana.com`
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
